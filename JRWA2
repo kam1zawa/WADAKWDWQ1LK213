@@ -5,9 +5,9 @@ local lp = game.Players.LocalPlayer
 local neededslot = "Slot4"
 local neededslot1 = "SLOT4"
 local neededslot2 = "SLOT 4: "
-local neededstand = "The Waifu Over Heaven(The World Over Hevean)"
+local neededstand = "Crazy Overseer(Crazy Diamond)"
 local rarity = "Legendary"
-local limited = false
+local limited = true
 game.Players.LocalPlayer:GetMouse().KeyDown:Connect(function(key)
 if key == "u" then
 local scrollstand = lp.PlayerGui.HUD.Main.Frames.Stands
